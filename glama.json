@@ -1,0 +1,10 @@
+{
+  "mcp": {
+    "transport": "stdio",
+    "command": "node",
+    "args": ["bin/mcp-stdio.js"]
+  },
+  "repository": "https://github.com/luisprimecore/chorus-field-mcp",
+  "homepage": "https://luiscore.com/chorus-field",
+  "mcpUrl": "https://luiscore.com/mcp"
+}
