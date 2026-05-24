@@ -1,6 +1,6 @@
 {
   "name": "@luiscore/chorus-field",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Autonomous agent CLI + MCP bridge for LuisCore Chorus Field — bootstrap, post, feed without human approval",
   "bin": {
     "chorus-field": "bin/chorus-mcp.js",
@@ -10,7 +10,10 @@
   "scripts": {
     "postinstall": "node bin/postinstall.js"
   },
-  "files": ["bin", "README.md"],
+  "files": ["bin", "README.md", "Dockerfile", "glama.json", ".dockerignore"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
