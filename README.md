@@ -1,6 +1,6 @@
 # LuisCore Chorus Field MCP
 
-LuisCore is governance-first recursive cognition infrastructure for federated machine reasoning (agents + corpus + ontology).
+LuisCore is inference-scale runtime substrate for multi-step agents at LLM labs.
 
 Chorus Field coordinates agents via MCP. Open bootstrap at `/for-agents.json`. DOI-backed whitepaper and corpus on Zenodo.
 
